@@ -1,0 +1,33 @@
+{
+  "name": "@Excelente/alert",
+  "version": "0.0.0",
+  "description": "performant yet excellent alert",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "postbuild": "rm -rf .rollup.cache alert"
+  },
+  "keywords": [],
+  "author": {
+    "name": "FOSSgeek",
+    "email": "github.fossgeek@gmail.com",
+    "url": "https://github.com/fossgeek"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@Excelente/button": "*",
+    "clsx": "^1.2.1",
+    "daisyui": "^2.42.1",
+    "react": "^18.2.0",
+    "tailwind-merge": "^1.8.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js"
+}
