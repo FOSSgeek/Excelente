@@ -3,4 +3,4 @@
 "@Excelente/button": minor 
 ---
 
-creating initial alert and button component with the help of react,tailwindcss,daisyui,rollup,postcss
+creating initial alert and button component with the help of react, tailwindcss, daisyui, rollup, postcss.
