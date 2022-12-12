@@ -1,0 +1,3 @@
+# excelente react templates
+
+this folder containing excelente configured templates to use with create-react-app or create-next-app...

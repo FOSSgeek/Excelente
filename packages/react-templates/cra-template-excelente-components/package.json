@@ -1,0 +1,26 @@
+{
+  "name": "cra-template-excelente-components",
+  "version": "1.2.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "The base template for excelente and react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fossgeek/excelente",
+    "directory": "packages/react-templates/cra-template-excelente-components"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/fossgeek/excelente"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

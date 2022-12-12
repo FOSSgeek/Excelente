@@ -1,8 +1,12 @@
 {
-  "name": "@Excelente/alert",
+  "name": "@excelente/alert",
   "version": "1.0.0-alpha",
   "description": "performant yet excellent alert",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "rollup -c --bundleConfigAsCjs",
     "postbuild": "rm -rf .rollup.cache alert"
   },
@@ -17,7 +21,9 @@
     "@Excelente/button": "*",
     "clsx": "^1.2.1",
     "daisyui": "^2.42.1",
-    "react": "^18.2.0",
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
     "tailwind-merge": "^1.8.0",
     "tailwindcss": "^3.2.4"
   },
@@ -26,8 +32,10 @@
     "postcss": "^8.4.19"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "types": "./dist/index.d.ts",
-  "main": "./dist/index.js"
+  "main": "./dist/index.js",
+  "type": "module"
 }
