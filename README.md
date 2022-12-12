@@ -1,4 +1,4 @@
-<div style="display:flex; width:100%; justify-content:center;"><a href="#" rel="noopener" target="_blank"><img style="height:100%;max-height:400px;" src="./excLogo.png" alt="MUI logo"></a>
+<div style="display:flex; width:100%; justify-content:center;"><a href="#" rel="noopener" target="_blank"><img style="height:100%;max-height:400px;" src="./excLogo.png" alt="excelente logo"></a>
 </div>
 
 # Excelente the excellent tools to build UI
