@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import React, { useState } from 'react';
 import { twMerge } from 'tailwind-merge';
-import Button from '@Excelente/button';
+import Button from '@excelente/button';
 import { Props } from './alert.types';
 
 export default function Alert({

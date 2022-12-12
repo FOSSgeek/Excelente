@@ -1,7 +1,7 @@
 {
-  "name": "@excelente/button",
-  "version": "1.0.0-alpha.5",
-  "description": "performant yet excellent button",
+  "name": "@excelente/components",
+  "version": "0.1.0",
+  "description": "performant yet excellent components",
   "publishConfig": {
     "access": "public"
   },
@@ -25,7 +25,9 @@
     "tailwindcss": "^3.2.4",
     "@types/react": "^17.0.0 || ^18.0.0",
     "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "@excelente/button": "*",
+    "@excelente/alert": "*"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
