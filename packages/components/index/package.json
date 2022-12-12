@@ -1,7 +1,7 @@
 {
   "name": "@excelente/components",
-  "version": "0.0.0",
-  "description": "performant yet excellent button",
+  "version": "0.1.0",
+  "description": "performant yet excellent components",
   "publishConfig": {
     "access": "public"
   },

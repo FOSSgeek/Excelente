@@ -13,6 +13,7 @@ export default [
         file: 'dist/index.js',
         format: 'esm',
         sourcemap: true,
+        sourcemapPathTransform:()=>'../src/index.tsx'
       },
     ],
     plugins: [
