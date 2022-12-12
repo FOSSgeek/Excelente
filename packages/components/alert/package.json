@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@Excelente/button": "*",
+    "@excelente/button": "*",
     "clsx": "^1.2.1",
     "daisyui": "^2.42.1",
     "@types/react": "^17.0.0 || ^18.0.0",
