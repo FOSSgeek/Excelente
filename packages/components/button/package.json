@@ -1,6 +1,6 @@
 {
   "name": "@excelente/button",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha.4",
   "description": "performant yet excellent button",
   "publishConfig": {
     "access": "public"
@@ -33,7 +33,8 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "excLogo.png"
   ],
   "types": "./dist/index.d.ts",
   "type": "module"
